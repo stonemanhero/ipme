@@ -8,7 +8,7 @@
 #include <fcntl.h>
 #include <unistd.h>
 
-#define IP "195.154.187.199"
+#define IP "195.154.182.137"
 #define BUFFER_REQUEST 100
 #define BUFFER_RESPONSE 1000
 
@@ -39,7 +39,7 @@ int main()
     strcat(request, "GET /ipme/ipme.php");
 	strcat(request, " HTTP/1.1\r\n");
 	strcat(request, "Host: ");
-	strcat(request, "www.botovanje.com");
+	strcat(request, "www.pirotski.com");
 	strcat(request, "\r\nConnection: close");
 	strcat(request, "\r\n\r\n");
      
