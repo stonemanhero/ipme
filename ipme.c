@@ -8,7 +8,7 @@
 #include <fcntl.h>
 #include <unistd.h>
 
-#define IP "195.154.182.137"
+#define IP "163.172.54.116"
 #define BUFFER_REQUEST 100
 #define BUFFER_RESPONSE 1000
 
